@@ -102,7 +102,7 @@ qiime taxa filter-table --i-table ${MYWD}/02-ASV-table/table.raw.qza --i-taxonom
 
 ## 4. Removal of potentially contaminant ASVs<a name="id4"></a>
 
-[Decontam](https://github.com/benjjneb/decontam) R pipeline was followed, while the main code is in the directory XXX of this repo
+[Decontam](https://github.com/benjjneb/decontam) R pipeline was followed, while the main code is in the directory `decontamination` of this repo
 
 Once decontamination is done, import decontaminated ASV-table to QIIME2 
 ```bash
